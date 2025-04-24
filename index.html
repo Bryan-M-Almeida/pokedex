@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="style/imagens/pokebola.png" type="image/x-icon">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="script/script.js" defer></script>
+</head>
+
+<body onclick="document.getElementById(' som').play()">
+    <audio id="som" autoplay loop>
+    <source src="style/audios/fundo.mp3" type="audio/mpeg">
+</audio>
+    <div class="escurecedor">
+
+        <main>
+            <img src="" alt="Pokémon" class="pokemon-image" title="Pokémon">
+
+            <h1 class="pokemon-data">
+                <span class="pokemon-number"></span> -
+                <span class="pokemon-name"></span>
+            </h1>
+
+            <form class="form">
+                <input type="search" class="input-search" placeholder="nome ou número" required>
+            </form>
+
+            <div class="buttons">
+                <button class="button btn-prev">prev &lt </button>
+                <button class="button btn-next">next &gt </button>
+
+            </div>
+
+            <img src="style/imagens/pokedex.png" alt="pokedex" class="pokedex" title="Pokedex">
+
+        </main>
+    </div>
+
+
+
+
+
+    
+</body>
+
+</html>
