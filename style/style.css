@@ -89,6 +89,7 @@ main {
     background-color: #444;
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .button:active {
